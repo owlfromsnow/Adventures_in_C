@@ -1,10 +1,10 @@
 /*
  ============================================================================
  Name        : Powers.c
- Author      : 
- Version     :
+ Author      : JC
+ Version     : 1.0
  Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Description : Simple for loop to to show powers of 2 until 2^7 in C, Ansi-style
  ============================================================================
  */
 
@@ -15,7 +15,7 @@ int main () {
    int p;
 
    /* for loop execution */
-   for( p = 2; p <= 100; p = p * 2 ){
+   for( p = 2; p <= 128; p = p * 2 ){
       printf("value of p: %d\n", p);
    }
 
